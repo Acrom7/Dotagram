@@ -36,4 +36,4 @@ Each installation connects one Telegram bot, one verified human owner, and one c
 
 ## Privacy and Data Retention
 
-Each Dotagram installation stores event subscriptions and privacy-preserving records in the database attached to the owner's ChatGPT Site. These opaque records suppress repeat event delivery for three hours. Expired records are removed on subsequent activity; no message content or delivery history is retained.
+Each Dotagram installation stores event subscriptions and privacy-preserving records in the database attached to the owner's ChatGPT Site. These opaque records suppress event delivery for 25 hours. This allows a one-hour margin beyond Telegram's 24-hour limit for pending updates. Dotagram removes expired records on subsequent activity and retains no message content or delivery history.
